@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438F5956171D0A3B002D5036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F5955171D0A3B002D5036 /* UIKit.framework */; };
+		438F5958171D0A3B002D5036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F5957171D0A3B002D5036 /* Foundation.framework */; };
+		438F595A171D0A3B002D5036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F5959171D0A3B002D5036 /* CoreGraphics.framework */; };
+		438F5960171D0A3B002D5036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 438F595E171D0A3B002D5036 /* InfoPlist.strings */; };
+		438F5962171D0A3B002D5036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438F5961171D0A3B002D5036 /* main.m */; };
+		438F5966171D0A3B002D5036 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438F5965171D0A3B002D5036 /* AppDelegate.m */; };
+		438F5969171D0A3B002D5036 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438F5967171D0A3B002D5036 /* MainStoryboard_iPhone.storyboard */; };
+		438F596C171D0A3B002D5036 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438F596A171D0A3B002D5036 /* MainStoryboard_iPad.storyboard */; };
+		438F596F171D0A3B002D5036 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438F596E171D0A3B002D5036 /* ViewController.m */; };
+		438F5977171D0A3B002D5036 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F5976171D0A3B002D5036 /* SenTestingKit.framework */; };
+		438F5978171D0A3B002D5036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F5955171D0A3B002D5036 /* UIKit.framework */; };
+		438F5979171D0A3B002D5036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438F5957171D0A3B002D5036 /* Foundation.framework */; };
+		438F5981171D0A3B002D5036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 438F597F171D0A3B002D5036 /* InfoPlist.strings */; };
+		438F5984171D0A3B002D5036 /* webcamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438F5983171D0A3B002D5036 /* webcamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438F597A171D0A3B002D5036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438F5948171D0A3A002D5036 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438F5950171D0A3A002D5036;
+			remoteInfo = webcam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		438F5951171D0A3A002D5036 /* webcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438F5955171D0A3B002D5036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		438F5957171D0A3B002D5036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		438F5959171D0A3B002D5036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		438F595D171D0A3B002D5036 /* webcam-Info.plist */ = {isa = PBXFileReference; path = "webcam-Info.plist"; sourceTree = "<group>"; };
+		438F595F171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		438F5961171D0A3B002D5036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		438F5963171D0A3B002D5036 /* webcam-Prefix.pch */ = {isa = PBXFileReference; path = "webcam-Prefix.pch"; sourceTree = "<group>"; };
+		438F5964171D0A3B002D5036 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		438F5965171D0A3B002D5036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		438F5968171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		438F596B171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		438F596D171D0A3B002D5036 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		438F596E171D0A3B002D5036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		438F5975171D0A3B002D5036 /* webcamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438F5976171D0A3B002D5036 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		438F597E171D0A3B002D5036 /* webcamTests-Info.plist */ = {isa = PBXFileReference; path = "webcamTests-Info.plist"; sourceTree = "<group>"; };
+		438F5980171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		438F5982171D0A3B002D5036 /* webcamTests.h */ = {isa = PBXFileReference; path = webcamTests.h; sourceTree = "<group>"; };
+		438F5983171D0A3B002D5036 /* webcamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webcamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438F594E171D0A3A002D5036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438F5956171D0A3B002D5036 /* UIKit.framework in Frameworks */,
+				438F5958171D0A3B002D5036 /* Foundation.framework in Frameworks */,
+				438F595A171D0A3B002D5036 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438F5971171D0A3B002D5036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438F5977171D0A3B002D5036 /* SenTestingKit.framework in Frameworks */,
+				438F5978171D0A3B002D5036 /* UIKit.framework in Frameworks */,
+				438F5979171D0A3B002D5036 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438F5946171D0A3A002D5036 = {
+			isa = PBXGroup;
+			children = (
+				438F595B171D0A3B002D5036 /* webcam */,
+				438F597C171D0A3B002D5036 /* webcamTests */,
+				438F5954171D0A3A002D5036 /* Frameworks */,
+				438F5952171D0A3A002D5036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438F5952171D0A3A002D5036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438F5951171D0A3A002D5036 /* webcam.app */,
+				438F5975171D0A3B002D5036 /* webcamTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438F5954171D0A3A002D5036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438F5955171D0A3B002D5036 /* UIKit.framework */,
+				438F5957171D0A3B002D5036 /* Foundation.framework */,
+				438F5959171D0A3B002D5036 /* CoreGraphics.framework */,
+				438F5976171D0A3B002D5036 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438F595B171D0A3B002D5036 /* webcam */ = {
+			isa = PBXGroup;
+			children = (
+				438F5964171D0A3B002D5036 /* AppDelegate.h */,
+				438F5965171D0A3B002D5036 /* AppDelegate.m */,
+				438F5967171D0A3B002D5036 /* MainStoryboard_iPhone.storyboard */,
+				438F596A171D0A3B002D5036 /* MainStoryboard_iPad.storyboard */,
+				438F596D171D0A3B002D5036 /* ViewController.h */,
+				438F596E171D0A3B002D5036 /* ViewController.m */,
+				438F595C171D0A3B002D5036 /* Supporting Files */,
+			);
+			path = webcam;
+			sourceTree = "<group>";
+		};
+		438F595C171D0A3B002D5036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				438F595D171D0A3B002D5036 /* webcam-Info.plist */,
+				438F595E171D0A3B002D5036 /* InfoPlist.strings */,
+				438F5961171D0A3B002D5036 /* main.m */,
+				438F5963171D0A3B002D5036 /* webcam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		438F597C171D0A3B002D5036 /* webcamTests */ = {
+			isa = PBXGroup;
+			children = (
+				438F5982171D0A3B002D5036 /* webcamTests.h */,
+				438F5983171D0A3B002D5036 /* webcamTests.m */,
+				438F597D171D0A3B002D5036 /* Supporting Files */,
+			);
+			path = webcamTests;
+			sourceTree = "<group>";
+		};
+		438F597D171D0A3B002D5036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				438F597E171D0A3B002D5036 /* webcamTests-Info.plist */,
+				438F597F171D0A3B002D5036 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438F5950171D0A3A002D5036 /* webcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438F5987171D0A3B002D5036 /* Build configuration list for PBXNativeTarget "webcam" */;
+			buildPhases = (
+				438F594D171D0A3A002D5036 /* Sources */,
+				438F594E171D0A3A002D5036 /* Frameworks */,
+				438F594F171D0A3A002D5036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webcam;
+			productName = webcam;
+			productReference = 438F5951171D0A3A002D5036 /* webcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438F5974171D0A3B002D5036 /* webcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438F598A171D0A3B002D5036 /* Build configuration list for PBXNativeTarget "webcamTests" */;
+			buildPhases = (
+				438F5970171D0A3B002D5036 /* Sources */,
+				438F5971171D0A3B002D5036 /* Frameworks */,
+				438F5972171D0A3B002D5036 /* Resources */,
+				438F5973171D0A3B002D5036 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438F597B171D0A3B002D5036 /* PBXTargetDependency */,
+			);
+			name = webcamTests;
+			productName = webcamTests;
+			productReference = 438F5975171D0A3B002D5036 /* webcamTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438F5948171D0A3A002D5036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 438F594B171D0A3A002D5036 /* Build configuration list for PBXProject "webcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 438F5946171D0A3A002D5036;
+			productRefGroup = 438F5952171D0A3A002D5036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438F5950171D0A3A002D5036 /* webcam */,
+				438F5974171D0A3B002D5036 /* webcamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438F594F171D0A3A002D5036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438F5960171D0A3B002D5036 /* InfoPlist.strings in Resources */,
+				438F5969171D0A3B002D5036 /* MainStoryboard_iPhone.storyboard in Resources */,
+				438F596C171D0A3B002D5036 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438F5972171D0A3B002D5036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438F5981171D0A3B002D5036 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		438F5973171D0A3B002D5036 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438F594D171D0A3A002D5036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438F5962171D0A3B002D5036 /* main.m in Sources */,
+				438F5966171D0A3B002D5036 /* AppDelegate.m in Sources */,
+				438F596F171D0A3B002D5036 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438F5970171D0A3B002D5036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438F5984171D0A3B002D5036 /* webcamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438F597B171D0A3B002D5036 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438F5950171D0A3A002D5036 /* webcam */;
+			targetProxy = 438F597A171D0A3B002D5036 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438F595E171D0A3B002D5036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438F595F171D0A3B002D5036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		438F5967171D0A3B002D5036 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438F5968171D0A3B002D5036 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		438F596A171D0A3B002D5036 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438F596B171D0A3B002D5036 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		438F597F171D0A3B002D5036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438F5980171D0A3B002D5036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438F5985171D0A3B002D5036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438F5986171D0A3B002D5036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438F5988171D0A3B002D5036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webcam/webcam-Prefix.pch";
+				INFOPLIST_FILE = "webcam/webcam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		438F5989171D0A3B002D5036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webcam/webcam-Prefix.pch";
+				INFOPLIST_FILE = "webcam/webcam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		438F598B171D0A3B002D5036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/webcam.app/webcam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webcam/webcam-Prefix.pch";
+				INFOPLIST_FILE = "webcamTests/webcamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		438F598C171D0A3B002D5036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/webcam.app/webcam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webcam/webcam-Prefix.pch";
+				INFOPLIST_FILE = "webcamTests/webcamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438F594B171D0A3A002D5036 /* Build configuration list for PBXProject "webcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438F5985171D0A3B002D5036 /* Debug */,
+				438F5986171D0A3B002D5036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438F5987171D0A3B002D5036 /* Build configuration list for PBXNativeTarget "webcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438F5988171D0A3B002D5036 /* Debug */,
+				438F5989171D0A3B002D5036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		438F598A171D0A3B002D5036 /* Build configuration list for PBXNativeTarget "webcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438F598B171D0A3B002D5036 /* Debug */,
+				438F598C171D0A3B002D5036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438F5948171D0A3A002D5036 /* Project object */;
+}
