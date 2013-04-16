@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @implementation ViewController
+@synthesize imageView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +23,33 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://IP/videostream.cgi"]
+                                             cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60];
+    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    if (connection) {
+        currentData = [[NSMutableData alloc] init];
+    }
 }
+
+- (void)connection:(NSURLConnection *)theConnection didReceiveData:(NSData *)data
+{
+    [currentData appendData:data];
+}
+
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{ 
+    NSLog(@"response with mime: %@ length:%i",[response MIMEType],[currentData length]);
+    
+    if([[response MIMEType] isEqualToString:@"image/jpeg"] && [currentData length] != 0) { currentFrame = [UIImage imageWithData:currentData]; 
+        [imageView setImage:currentFrame]; 
+    }
+    [currentData setLength:0];
+} 
 
 - (void)viewDidUnload
 {
+    [self setImageView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -59,6 +83,6 @@
     } else {
         return YES;
     }
-}
+}	
 
 @end

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    int frameCounter;
+    NSMutableData *buffer1;
+    NSMutableData *buffer2; 
+    NSMutableData *currentData;
+    UIImage *currentFrame;
+}
+
+
+@property (retain, nonatomic) IBOutlet UIImageView *imageView;
 
 @end

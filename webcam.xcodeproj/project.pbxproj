@@ -38,21 +38,21 @@
 		438F5955171D0A3B002D5036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		438F5957171D0A3B002D5036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		438F5959171D0A3B002D5036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		438F595D171D0A3B002D5036 /* webcam-Info.plist */ = {isa = PBXFileReference; path = "webcam-Info.plist"; sourceTree = "<group>"; };
+		438F595D171D0A3B002D5036 /* webcam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webcam-Info.plist"; sourceTree = "<group>"; };
 		438F595F171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		438F5961171D0A3B002D5036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		438F5963171D0A3B002D5036 /* webcam-Prefix.pch */ = {isa = PBXFileReference; path = "webcam-Prefix.pch"; sourceTree = "<group>"; };
-		438F5964171D0A3B002D5036 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		438F5963171D0A3B002D5036 /* webcam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webcam-Prefix.pch"; sourceTree = "<group>"; };
+		438F5964171D0A3B002D5036 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		438F5965171D0A3B002D5036 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		438F5968171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		438F596B171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		438F596D171D0A3B002D5036 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		438F596D171D0A3B002D5036 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		438F596E171D0A3B002D5036 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		438F5975171D0A3B002D5036 /* webcamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438F5976171D0A3B002D5036 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		438F597E171D0A3B002D5036 /* webcamTests-Info.plist */ = {isa = PBXFileReference; path = "webcamTests-Info.plist"; sourceTree = "<group>"; };
+		438F597E171D0A3B002D5036 /* webcamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webcamTests-Info.plist"; sourceTree = "<group>"; };
 		438F5980171D0A3B002D5036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		438F5982171D0A3B002D5036 /* webcamTests.h */ = {isa = PBXFileReference; path = webcamTests.h; sourceTree = "<group>"; };
+		438F5982171D0A3B002D5036 /* webcamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webcamTests.h; sourceTree = "<group>"; };
 		438F5983171D0A3B002D5036 /* webcamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webcamTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
